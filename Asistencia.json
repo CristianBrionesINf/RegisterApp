@@ -1,0 +1,64 @@
+{
+  "asistencias": [
+    {
+      "id": "1",
+      "nombre": "Juan Pérez",
+      "presente": true,
+      "tipo": "alumno"
+    },
+    {
+      "id": "2",
+      "nombre": "María López",
+      "presente": false,
+      "tipo": "profesor"
+    },
+    {
+      "id": "3",
+      "nombre": "Juan Tapia",
+      "presente": true,
+      "tipo": "alumno"
+    },
+    {
+      "id": "4",
+      "nombre": "Matias Silva",
+      "presente": false,
+      "tipo": "profesor"
+    },
+    {
+      "id": "5",
+      "nombre": "Francisco Silva",
+      "presente": true,
+      "tipo": "alumno"
+    },
+    {
+      "id": "6",
+      "nombre": "Brayan Felipe",
+      "presente": false,
+      "tipo": "profesor"
+    },
+    {
+      "id": "7",
+      "nombre": "Oscar Valdez",
+      "presente": true,
+      "tipo": "alumno"
+    },
+    {
+      "id": "8",
+      "nombre": "Jessica Jara",
+      "presente": false,
+      "tipo": "profesor"
+    },
+    {
+      "id": "9",
+      "nombre": "Alex Cristian",
+      "presente": true,
+      "tipo": "alumno"
+    },
+    {
+      "id": "10",
+      "nombre": "Cristian Briones",
+      "presente": false,
+      "tipo": "profesor"
+    }
+  ]
+}
