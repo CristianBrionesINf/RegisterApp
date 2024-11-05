@@ -16,20 +16,16 @@ const routes: Routes = [
     loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   },
   {
-    path: 'recuperarcontra',
-    loadChildren: () => import('./recuperarcontra/recuperarcontra.module').then( m => m.RecuperarcontraPageModule)
+    path: 'lista-alumnos',
+    loadChildren: () => import('./lista-alumnos/lista-alumnos.module').then( m => m.ListaAlumnosPageModule)
   },
   {
-    path: 'error404',
-    loadChildren: () => import('./error404/error404.module').then( m => m.Error404PageModule)
+    path: 'lista-profesores',
+    loadChildren: () => import('./lista-profesores/lista-profesores.module').then( m => m.ListaProfesoresPageModule)
   },
   {
-    path: 'alumno',
-    loadChildren: () => import('./alumno/alumno.module').then( m => m.AlumnoPageModule)
-  },
-  {
-    path: 'profesor',
-    loadChildren: () => import('./profesor/profesor.module').then( m => m.ProfesorPageModule)
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   },
 ];
 
