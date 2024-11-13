@@ -14,3 +14,7 @@ import { AppRoutingModule } from './app-routing.module';
   bootstrap: [AppComponent],
 })
 export class AppModule {}
+IonicModule.forRoot{{
+  rippleEffect: false,
+    mode: 'md'
+}}
